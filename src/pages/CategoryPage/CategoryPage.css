@@ -83,8 +83,7 @@
 .not_product {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#83EAF1
-, #63A4FF);
+    background-image: linear-gradient(#83EAF1, #63A4FF);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,3 +93,4 @@
     font-weight: 700;
     font-size: 4.5rem;
 }
+

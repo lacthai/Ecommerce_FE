@@ -68,7 +68,7 @@ function Navigation() {
               <LinkContainer to="/category/all" className="sidebar_box-icon">
                 <NavDropdown.Item>All Product</NavDropdown.Item>
               </LinkContainer>
-              <LinkContainer to="/category/phone" className="sidebar_box-icon">
+              <LinkContainer to="/category/phones" className="sidebar_box-icon">
                 <NavDropdown.Item>Phone</NavDropdown.Item>
               </LinkContainer>
               <LinkContainer
