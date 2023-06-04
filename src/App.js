@@ -49,7 +49,7 @@ function App() {
                 )} */}
                 <Navigation />
                 <Routes>
-                    <Route path="/home" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     {!user && (
                         <>
                             <Route path="/login" element={<Login />} />
