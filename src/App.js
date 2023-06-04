@@ -49,7 +49,7 @@ function App() {
                 )} */}
                 <Navigation />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route index element={<Home />} />
                     {!user && (
                         <>
                             <Route path="/login" element={<Login />} />
@@ -77,7 +77,7 @@ function App() {
                     <Route path="/new-product" element={<NewProduct />} />
                     <Route path="/update-profile" element={<UpdateProfile />} />
                     
-                    
+                    <Route path="*" element={<Home />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
