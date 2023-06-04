@@ -65,26 +65,36 @@ function Navigation() {
               className="header_btn"
               style={{ fontSize: "1.1rem" }}
             >
-              <NavDropdown.Item>
-                <Link to="/category/all" style={{textDecoration: "none", color: "black"}}>All Product</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link to="/category/phones" style={{textDecoration: "none", color: "black"}}>Phone</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item to="/category/laptops">
-                <Link to="/category/laptops" style={{textDecoration: "none", color: "black"}}>Laptop</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item to="/category/technology">
-                <Link to="/category/technology" style={{textDecoration: "none", color: "black"}}>Other Technology</Link>
-              </NavDropdown.Item>
+              <LinkContainer to="/category/all" className="sidebar_box-icon">
+                <NavDropdown.Item>All Product</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/category/phone" className="sidebar_box-icon">
+                <NavDropdown.Item>Phone</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer
+                to="/category/laptops"
+                className="sidebar_box-icon"
+              >
+                <NavDropdown.Item>Laptop</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer
+                to="/category/technology"
+                className="sidebar_box-icon"
+              >
+                <NavDropdown.Item>Other Technology</NavDropdown.Item>
+              </LinkContainer>
             </NavDropdown>
             <NavDropdown
               title="Services"
               id="basic-nav-dropdown"
               style={{ fontSize: "1.1rem" }}
             >
-              <NavDropdown.Item to="/aboutus">About us</NavDropdown.Item>
-              <NavDropdown.Item to="#action/3.2">Contact</NavDropdown.Item>
+              <LinkContainer to="/aboutus" className="sidebar_box-icon">
+                <NavDropdown.Item>About us</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="#" className="sidebar_box-icon">
+                <NavDropdown.Item>Contact</NavDropdown.Item>
+              </LinkContainer>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
@@ -123,7 +133,11 @@ function Navigation() {
                   ></i>
                 </Nav.Link>
                 <Nav.Link>
-                  <img src={user.photoURL} alt="avatar" className="img_avatar"/>
+                  <img
+                    src={user.photoURL}
+                    alt="avatar"
+                    className="img_avatar"
+                  />
                 </Nav.Link>
                 <NavDropdown
                   title={`${user.name} ${user.isAdmin ? "(admin)" : ""}`}
@@ -153,7 +167,7 @@ function Navigation() {
                         <NavDropdown.Item>
                           <BiUserCircle className="sidebar_icon" /> Profile
                         </NavDropdown.Item>
-                        </LinkContainer>
+                      </LinkContainer>
                     </>
                   )}
                   {!user.isAdmin && (

@@ -16,11 +16,11 @@ function CheckoutForm() {
     const [address, setAddress] = useState("");
     const [paying, setPaying] = useState(false);
 
-    async function handlePay(e) {
+    async function handlePay(e) {https://ecommerce-be-6nlj.onrender.com/create-payment
         e.preventDefault();
         if (!stripe || !elements || user.cart.count <= 0) return;
         setPaying(true);
-        const { client_secret } = await fetch("http://localhost:8080/create-payment", {
+        const { client_secret } = await fetch("https://ecommerce-be-6nlj.onrender.com/create-payment", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
