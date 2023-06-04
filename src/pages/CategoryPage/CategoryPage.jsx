@@ -1,7 +1,7 @@
 import axios from "../../axios";
 import React, { useEffect, useState } from "react";
 import { Col, Container, Nav, Row } from "react-bootstrap";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Loading from "../../components/Loading/Loading";
 import ProductPreview from "../../components/ProductPreview/ProductPreview";
 import "./CategoryPage.css";
@@ -80,36 +80,36 @@ const CategoryPage = () => {
             <Col sm={3} className="navbar_dashboard">
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link
+                  <Link
                     to="/category/all"
                     className="btn_dashboard btn_hover"
                   >
                     All products
-                  </Nav.Link>
+                  </Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link
+                  <Link
                     to="/category/phones"
                     className="btn_dashboard btn_hover"
                   >
                     Phones
-                  </Nav.Link>
+                  </Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link
+                  <Link
                     to="/category/laptops"
                     className="btn_dashboard btn_hover"
                   >
                     Laptops
-                  </Nav.Link>
+                  </Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link
+                  <Link
                     to="/category/technology"
                     className="btn_dashboard btn_hover"
                   >
                     Others Technology
-                  </Nav.Link>
+                  </Link>
                 </Nav.Item>
               </Nav>
             </Col>
