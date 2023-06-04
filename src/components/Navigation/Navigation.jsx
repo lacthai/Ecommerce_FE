@@ -10,6 +10,7 @@ import { BsCart4, BsTrashFill, BsMailbox } from "react-icons/bs";
 import { FaHistory } from "react-icons/fa";
 import { BiUserCircle, BiPowerOff } from "react-icons/bi";
 import { MdSpaceDashboard, MdOutlineCreateNewFolder } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   const user = useSelector((state) => state.user);
@@ -64,17 +65,17 @@ function Navigation() {
               className="header_btn"
               style={{ fontSize: "1.1rem" }}
             >
-              <NavDropdown.Item to="/category/all">
-                All Product
+              <NavDropdown.Item>
+                <Link to="/category/all" style={{textDecoration: "none", color: "black"}}>All Product</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item to="/category/phones">
-                Phones
+              <NavDropdown.Item>
+                <Link to="/category/phones" style={{textDecoration: "none", color: "black"}}>Phone</Link>
               </NavDropdown.Item>
               <NavDropdown.Item to="/category/laptops">
-                Laptops
+                <Link to="/category/laptops" style={{textDecoration: "none", color: "black"}}>Laptop</Link>
               </NavDropdown.Item>
               <NavDropdown.Item to="/category/technology">
-                Technology
+                <Link to="/category/technology" style={{textDecoration: "none", color: "black"}}>Other Technology</Link>
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
