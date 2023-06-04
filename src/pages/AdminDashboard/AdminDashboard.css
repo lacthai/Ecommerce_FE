@@ -1,0 +1,24 @@
+.navbar_dashboard {
+    background-color: #ffffff;
+    height: 100vh;
+    margin: 20px 0;
+    border-right: 1px solid rgb(216, 214, 214);
+}
+
+.btn_dashboard {
+    color: #2a2f3b !important;
+    margin: 5px 0;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn_dashboard i {
+    margin-right: 10px;
+    font-size: 1rem !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #414699 !important;
+    background-color: #ecf3fe !important;
+}

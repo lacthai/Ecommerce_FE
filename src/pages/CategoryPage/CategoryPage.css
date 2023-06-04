@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+.category-page-container {
+    min-height: 90vh;
+}
+
+.category-banner-container {
+    height: 250px;
+    background-image: url("https://img6.thuthuatphanmem.vn/uploads/2022/03/16/mau-background-banner-hien-dai_014244494.jpg");
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f3172d;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.category-banner-container h1 {
+    font-weight: 700;
+}
+
+.phones-banner-container {
+    height: 250px;
+    background-image: url("https://global.hisense.com/dam/jcr:983144b1-36db-44ba-af97-7c15d37daa71/product-overview-hisense-smartphone-kv.h60-5g.jpg");
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.laptops-banner-container {
+    height: 250px;
+    background-image: url("https://nhatminhlaptop.com/upload/ProductCategories/2021-08-27-16-43-08_banner/lenovolaptopthinkpadbanner1143x3571-1.jpg");
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.technology-banner-container {
+    height: 250px;
+    background-image: url("https://img.freepik.com/premium-vector/vector-business-graphic-hitech-communication-concept-innovation-background-science-technology_262356-341.jpg?w=2000");
+    background-repeat: none;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.search-product {
+    margin: 20px 0;
+}
+
+.search-product input{
+    padding: 5px 20px;
+    width: 400px;
+    background-color: rgb(240, 219, 181);
+    border: 3px solid rgb(207, 205, 205);
+    border-radius: 20px;
+    color: #000000;
+}
+
+.btn_hover {
+    transition: 0.5s;
+}
+
+.btn_hover:hover {
+    color: #414699 !important;
+    background-color: #ecf3fe !important;
+    transform: translateX(5px);
+}
+
+/* not product */
+.not_product {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#83EAF1
+, #63A4FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not_product h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.layout_banner {
+    display: flex !important;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+.banner_desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 35px;
+}
+
+.banner_desc h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3.3rem;
+    text-transform: uppercase;
+}
+
+
+.banner_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slick-dots {
+    width: 15% !important;
+    left: 50%;
+    bottom: -40px !important;
+    transform: translateX(-50%);
+    background-color: gainsboro;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.slick-dots li button:before {
+    font-size: 1rem !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ffffff !important;
+}
+
+.slick-prev, .slick-next {
+    display: none !important;
+}
+
+.category-tile {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+.card {
+    border: none !important;
+    width: 15rem !important;
+}
+img.card-img-top.product-preview-img {
+    border-radius: 10px;
+}
+
+.category-tile:hover {
+    transform: scale(1.05);
+}
+
+.sale__banner--container img {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    max-height: 750px;
+    border-radius: 15px;
+}
+
+.Home_last-product_seemore {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn--seemore {
+   text-decoration: none;
+   background-color: #f6efe9;
+   padding: 10px;
+   border-radius: 25px;
+   color: rgb(55, 54, 54);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 0.3s ease-in-out;
+}
+
+.btn--seemore:hover {
+    transform: scale(1.05);
+    color: black;
+    font-weight: 500;
+}

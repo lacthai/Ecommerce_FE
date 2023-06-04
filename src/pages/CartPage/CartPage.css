@@ -1,0 +1,39 @@
+.cart_img {
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/shopping-time-banner-with-realistic-map-cart-gift-bags-vector-illustration_548887-120.jpg?w=2000");
+    background-repeat: none;
+    background-size: contain;
+    height: 200px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.cart_title {
+    font-weight: 800;
+}
+
+.fa-plus-circle,
+.fa-minus-circle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.fa-plus-circle {
+    margin-left: 5px;
+}
+
+.fa-minus-circle {
+    margin-right: 5px;
+}
+
+.table-responsive-sm {
+    max-height: 70vh;
+    overflow: scroll;
+}
+
+.sub_total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}

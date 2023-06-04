@@ -1,0 +1,27 @@
+.card_product-preview {
+    transition: 0.5s;
+}
+
+.card_product-preview:hover {
+    transform: scale(1.05);
+}
+
+.home_product--name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+}
+
+.product-preview-img {
+    object-fit: contain !important;
+}
+
+.home_product--price {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    font-weight: 600;
+}

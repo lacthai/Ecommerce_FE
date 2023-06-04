@@ -1,0 +1,25 @@
+
+.product_page-index {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+  
+}
+
+.product_page-index ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+.product_page-index ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.product_page-index ul li:hover {
+    transform: scale(1.05);
+} 

@@ -1,0 +1,24 @@
+.no_order-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.order_img {
+    width: 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/299/835/original/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg");
+    background-repeat: none;
+    background-size: cover;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.order_title {
+    margin: 20px 0;
+    font-weight: 800;
+    letter-spacing: 5px;
+}

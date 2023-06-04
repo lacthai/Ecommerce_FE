@@ -1,0 +1,31 @@
+.dashboard-product-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.dashboard_product--name {
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dashboard_product--btn_delete {
+    background-color: rgb(239, 141, 141);
+    border: none;
+}
+
+.dashboard_product--btn_delete:hover {
+    background-color: rgb(231, 73, 73) !important;
+}
+
+.dashboard_product--btn_edit {
+    background-color: rgb(126, 245, 162);
+    border: none;
+    margin-left: 7px;
+}
+
+.dashboard_product--btn_edit:hover {
+    background-color: rgb(66, 181, 66) !important;
+}
