@@ -81,7 +81,7 @@ const CategoryPage = () => {
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
                   <Nav.Link
-                    href="/category/all"
+                    to="/category/all"
                     className="btn_dashboard btn_hover"
                   >
                     All products
@@ -89,7 +89,7 @@ const CategoryPage = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link
-                    href="/category/phones"
+                    to="/category/phones"
                     className="btn_dashboard btn_hover"
                   >
                     Phones
@@ -97,7 +97,7 @@ const CategoryPage = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link
-                    href="/category/laptops"
+                    to="/category/laptops"
                     className="btn_dashboard btn_hover"
                   >
                     Laptops
@@ -105,7 +105,7 @@ const CategoryPage = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link
-                    href="/category/technology"
+                    to="/category/technology"
                     className="btn_dashboard btn_hover"
                   >
                     Others Technology
