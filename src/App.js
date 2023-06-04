@@ -77,7 +77,7 @@ function App() {
                     <Route path="/new-product" element={<NewProduct />} />
                     <Route path="/update-profile" element={<UpdateProfile />} />
                     
-                    <Route path="*" element={<Home />} />
+                    
                 </Routes>
                 <Footer />
             </BrowserRouter>
