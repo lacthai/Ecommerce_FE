@@ -64,16 +64,16 @@ function Navigation() {
               className="header_btn"
               style={{ fontSize: "1.1rem" }}
             >
-              <NavDropdown.Item href="/category/all">
+              <NavDropdown.Item to="/category/all">
                 All Product
               </NavDropdown.Item>
-              <NavDropdown.Item href="/category/phones">
+              <NavDropdown.Item to="/category/phones">
                 Phones
               </NavDropdown.Item>
-              <NavDropdown.Item href="/category/laptops">
+              <NavDropdown.Item to="/category/laptops">
                 Laptops
               </NavDropdown.Item>
-              <NavDropdown.Item href="/category/technology">
+              <NavDropdown.Item to="/category/technology">
                 Technology
               </NavDropdown.Item>
             </NavDropdown>
@@ -82,8 +82,8 @@ function Navigation() {
               id="basic-nav-dropdown"
               style={{ fontSize: "1.1rem" }}
             >
-              <NavDropdown.Item href="/aboutus">About us</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Contact</NavDropdown.Item>
+              <NavDropdown.Item to="/aboutus">About us</NavDropdown.Item>
+              <NavDropdown.Item to="#action/3.2">Contact</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
